@@ -25,31 +25,58 @@ disableHugoGeneratorInject = false
 	dateformNumTime = "2006-01-02 15:04"
 	
 	# Subtile for home
-	homeSubtitle = "A simpe and beautiful blog"
+	homeSubtitle = "Backend Developer // Software Architect "
 	enableSharingButtons = true
-	
+
 	description = "My new homepage or blog"
-	keywords = "ali, kaviani, blog, golang, gopher"
+	keywords = "ali, kaviani, blog, golang, gopher"	
+
 [taxonomires]
 	category = "blog"
 	tag = "tags"
 	series = "series"
+
 [params.favicon.color]
 	mask = "#252627"
 	msapplication = "#252627"
 	theme = "#252627"
+
+[params.portrait]
+	path     = "/profile_photo.jpg"
+	alt      = "Portrait"
+	maxWidth = "220px"
+
 [params.logo]
 	logoText = "$ cd /home/"
 	logoHomeLink = "/"
+	logoCursorColor    = "#67a2c9"
+	logoCursorAnimate  = "2s"
+
+[[params.social]]
+	name = "email"
+	url = "mailto:ali.kaviani@gmail.com"
+
 [[params.social]]
 	name = "twitter"
 	url = "https://twitter.com/subzeroboy"
+
 [[params.social]]
 	name = "github"
 	url = "https://github.com/subzerobo"
+
 [[params.social]]
 	name = "linkedin"
 	url = "https://linkedin.com/in/a-kaviani-hamedani"
+
+[[params.social]]
+	name = "telegram"
+	url = "https://t.me/subzeroboy"
+
+
+[[params.social]]
+	name = "medium"
+	url = "https://medium.com/@ali.kaviani"
+
 [menu]
 	[[menu.main]]
 		identifier = "blog"
