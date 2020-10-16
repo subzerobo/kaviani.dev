@@ -1,0 +1,61 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Ali Kaviani Hamedani"
+theme = "hello-friend-ng"
+paginate = 10
+rsslimit = 10
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+	posts = "/posts/:year/:month/:title"
+[author]
+	name = "Ali Kaviani"
+[params]
+	dateform = "Jan 2, 2006"
+  	dateformShort = "Jan 2"
+	dateformNum = "2006-01-02"
+	dateformNumTime = "2006-01-02 15:04"
+	
+	# Subtile for home
+	homeSubtitle = "A simpe and beautiful blog"
+	enableSharingButtons = true
+	
+	description = "My new homepage or blog"
+	keywords = "ali, kaviani, blog, golang, gopher"
+[taxonomires]
+	category = "blog"
+	tag = "tags"
+	series = "series"
+[params.favicon.color]
+	mask = "#252627"
+	msapplication = "#252627"
+	theme = "#252627"
+[params.logo]
+	logoText = "$ cd /home/"
+	logoHomeLink = "/"
+[[params.social]]
+	name = "twitter"
+	url = "https://twitter.com/subzeroboy"
+[[params.social]]
+	name = "github"
+	url = "https://github.com/subzerobo"
+[[params.social]]
+	name = "linkedin"
+	url = "https://linkedin.com/in/a-kaviani-hamedani"
+[menu]
+	[[menu.main]]
+		identifier = "blog"
+		name = "Blog"
+		url = "/posts"
+	[[menu.main]]
+		identifier = "about"
+		name = "About"
+		url = "/about"
